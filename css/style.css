@@ -1,6 +1,25 @@
 /* CUSTOM PROPS */
 
 /* FONTS */
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+      url('../fonts/Oswald-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+      url('../fonts/Oswald-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 /* GLOBAL */
 
@@ -22,7 +41,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family: "Arial", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding: 0;
@@ -83,6 +102,7 @@ input:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
 
 
 
