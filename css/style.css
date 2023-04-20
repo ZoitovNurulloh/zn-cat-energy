@@ -300,6 +300,72 @@ input:-webkit-autofill:focus {
 }
 
 
+/* WORK */
+.work {
+  padding-top: 35px;
+  padding-bottom: 11px;
+}
+
+.work__title {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.work__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  counter-reset: work__item;
+}
+
+.work__item {
+  position: relative;
+  width: 230px;
+  padding-top: 40px;
+  padding-bottom: 57px;
+  counter-increment: work__item;
+}
+
+.work__item::before {
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  right: 0;
+  content: counter(work__item);
+  font-size: 280px;
+  line-height: 280px;
+  color: #F2F2F2;
+}
+
+.work__item:not(:last-child) {
+  margin-right: 94px;
+}
+
+.work__img-wrapper {
+  width: 80px;
+  height: 80px;
+  background-color: #68B738;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+.work__img {
+  display: inline-block;
+}
+
+.work__info {
+  font-family: "Arial";
+  color: #444444;
+  margin: 0;
+}
+
 
 
 /* RETINA BACKGROUND IMAGES */
