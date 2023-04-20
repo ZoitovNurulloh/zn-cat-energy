@@ -367,6 +367,100 @@ input:-webkit-autofill:focus {
 }
 
 
+/* EXAMPLE */
+
+.example {
+  padding-top: 58px;
+}
+
+.example__title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  margin-bottom: 76px;
+  margin-left: 146px;
+  color: #000;
+  background-color: #fff;
+}
+
+.example__wrapper {
+  background-color: #f2f2f2;
+}
+
+.example__bottom  {
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
+
+
+.example__bottom-info-text {
+  width: 100%;
+  max-width: 438px;
+  margin: 0;
+  margin-bottom: 69px;
+}
+
+.example__bottom-info-status {
+  display: flex;
+  margin-bottom: 55px;
+}
+
+.example__bottom-status-weight {
+  position: relative;
+  width: 162px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 57px;
+  padding-left: 57px;
+  text-align: center;
+  border: 1px solid #CDCDCD;
+  border-bottom: none;
+}
+
+.example__bottom-status-weight--active {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.example__bottom-status-weight:not(:last-child) {
+  margin-right: 42px;
+}
+
+.example__bottom-weight-status {
+  margin: 0;
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 400;
+}
+
+.example__bottom-weight-status-info {
+  position: absolute;
+  text-align: center;
+  bottom: -5px;
+  left: 33px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Arial";
+  white-space: nowrap;
+}
+
+.example__bottom-weight-status-info--active {
+  left: 17px;
+}
+
+.example__bottom-info-spend-text {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20px;
+  margin-right: 63px;
+}
+
+
 
 /* RETINA BACKGROUND IMAGES */
 @media
