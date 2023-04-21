@@ -472,7 +472,6 @@ input:-webkit-autofill:focus {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  margin-bottom: 500px;
 }
 
 .location__info {
@@ -513,6 +512,51 @@ input:-webkit-autofill:focus {
 
 .location__info-address-city {
   margin: 0;
+}
+
+
+/* FOOTER */
+.footer {
+  padding-top: 57px;
+  padding-bottom: 58px;
+  background-color: #f2f2f2;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__socials-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__socials-item:not(:last-child) {
+  margin-right: 27px;
+}
+
+.footer__socials-img {
+  display: inline-block;
+}
+
+.footer__icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon-title {
+  margin: 0;
+  margin-right: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Arial";
+  color: #444;
 }
 
 
