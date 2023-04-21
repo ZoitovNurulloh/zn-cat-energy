@@ -464,6 +464,57 @@ input:-webkit-autofill:focus {
 }
 
 
+/* LOCATION */
+.location {
+  padding-top: 95px;
+  padding-bottom: 104px;
+  background-image: url(/img/location-map.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 500px;
+}
+
+.location__info {
+  display: flex;
+  align-items: center;
+  width: 570px;
+  background-color: #fff;
+  padding-top: 61px;
+  padding-bottom: 60px;
+  padding-left: 76px;
+  padding-right: 89px;
+}
+
+.location__info-invitation {
+  width: 163px;
+  margin: 0;
+  margin-right: 87px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.location__info-address {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Arial";
+  color: #444;
+}
+
+.location__info-address-street {
+  margin: 0;
+  margin-bottom: 21px;
+  font-weight: 400;
+
+}
+
+.location__info-address-city {
+  margin: 0;
+}
+
 
 /* RETINA BACKGROUND IMAGES */
 @media
