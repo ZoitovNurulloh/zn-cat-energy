@@ -391,6 +391,9 @@ input:-webkit-autofill:focus {
 .example__bottom  {
   padding-top: 70px;
   padding-bottom: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
